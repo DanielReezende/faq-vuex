@@ -1,0 +1,50 @@
+.faq-categories .image-header {
+  display: grid;
+  justify-content: center;
+}
+
+.faq-categories .image-header img {
+  width: 245px;
+}
+
+.faq-categories .text-header h2, p {
+  color: #f5f6f8;
+}
+
+.faq-categories .text-header {
+  padding: 1.1rem 1.875rem 2.125rem;
+}
+
+.faq-categories .text-header h2 {
+  font-size: 1.25rem;
+}
+.faq-categories .text-header p {
+  font-size: 0,875rem;
+  padding-top: 0.288rem;
+}
+
+.faq-categories .categories {
+  list-style: none;
+}
+
+.faq-categories .categories .category-item {
+  color: #f5f6f8;
+  padding: 1rem 1.875rem;
+  font-size: 1rem;
+
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 2.125rem;
+  background-color: transparent;
+  transition: background-color 0.2s ease-in-out;
+
+}
+
+.faq-categories .categories .category-item img {
+  width: 1.5rem;
+}
+
+.faq-categories .categories .category-item:hover {
+  background-color: #3f4452;
+  cursor: pointer;
+}
